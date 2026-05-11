@@ -1,0 +1,1490 @@
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+
+
+/*******************/
+/* VIEWS  
+-------------------*/
+.left
+{
+	float: left;	
+}
+
+.right
+{
+	float:right;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12,
+.grid-13, .grid-14, .grid-15, .grid-16, .grid-17, .grid-18, .grid-19, .grid-20, .grid-21, .grid-22, .grid-23, .grid-24 
+{
+	overflow: hidden;
+}
+
+div#BodyContent h1, div#BodyContent h2, div#BodyContent h3, div#BodyContent h4
+{
+	line-height: 120%;
+	
+}
+
+div#BodyContent h1.Header, div#BodyContent h2.Header
+{
+	margin-bottom: 0px;
+	margin-top: -5px;
+}
+
+div#BodyContent h2
+{
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+div#BodyContent h2.Header
+{
+	font-size: 28px;
+}
+
+div#BodyContent h4
+{
+	text-transform:none;
+}
+
+div#BodyContent h4.title
+{
+	margin-bottom: 0px;
+	font-weight:bold;
+}
+.CallToAction
+{
+	display: inline-block;
+}
+
+.clear
+{
+	height: 1px;
+	line-height: 1px;
+	clear: both;
+}
+
+.itemHeader  { 
+    margin-top:20px;
+    margin-bottom:4px;
+    width:100%;
+
+} 
+
+.TopSpace
+{
+    padding-top: 20px;
+}
+
+.SpaceLBorder1
+{
+	max-width: 100%;
+	height: 0px;
+	border-bottom: solid 1px #77bb44;	
+}
+
+.SpaceLBorderGrey1
+{
+	width: 100%;
+	height: 0px;
+	border-bottom: solid 1px #bdbec1;
+}
+
+.SpaceLBorderChill1
+{
+	width: 100%;
+	height: 0px;
+	border-bottom: solid 1px #e2e3e2;
+}
+
+/** Header **/
+DIV.HeaderContent
+{
+	margin-top: 20px;
+}
+
+DIV.HeaderContent .price
+{
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+DIV.CosmosLandingPageBanner
+{
+	margin-bottom: 20px;
+}
+
+DIV.CosmosLandingPageBannerImage
+{
+	height:183px;
+	overflow:hidden;
+}
+DIV.CosmosLandingPageBannerHeader
+{
+	width: 470px;
+	float: left;
+}
+
+span.CosmosLandingPageBannerSubHeader
+{
+	color: #77bb44;
+}
+
+DIV.CosmosLandingPageBannerText
+{	
+	width: 475px;
+	float: right;
+}
+DIV.CosmosLandingPageBannerText p
+{
+	margin-top: 20px;
+}
+
+DIV.CosmosLandingPageBannerCTA
+{
+	float:right;
+	margin-top: 15px;
+}
+/** Header End **/
+
+/** Content Block **/
+
+.ContentBlock
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position:relative;
+	height: 100%;
+	min-height: 100px;
+	overflow: hidden;
+}
+
+.ContentBlock a
+{
+	font-weight: normal;
+}
+
+.ContentBlock .CallToAction_Secondary, .ContentBlock .CallToAction
+{
+	margin-top: 10px;
+}
+
+.ContentBlock .CallToAction_Secondary a
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.ContentBlock .CallToAction
+{
+	font-weight: bold;
+}
+
+.ContentBlock .TextBody, .ContentBlock .ImgBody
+{
+	margin-left: 10px;
+	margin-right: 15px;
+	overflow: hidden;
+}
+
+.ContentBlock .ImgBody
+{
+	padding-top: 5px;
+}
+
+.ContentBlock .ImgBodyR
+{
+	margin-left: 0px;
+	float: right;
+}
+
+.ContentBlock .ImgBodyL
+{
+
+	float: left;
+	overflow:hidden;
+}
+
+.ContentBlock .ImgVideo
+{
+	position:relative;
+	min-height: 80px;
+	min-width: 80px;
+	cursor:pointer;
+}
+
+.ContentBlockFull .TextBody, .ContentBlockFull .ImgBody
+{
+	margin-left: 0px;
+}
+
+/** Content Block End **/
+
+
+/** Content Product Block **/
+
+.ContentProductBlock
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align:center;
+}
+
+.ContentProductBlock .TextBody
+{
+	margin: 20px 20px 0px 10px;
+	text-align:left;
+}
+
+.ContentProductBlock .TextBody .Title
+{
+	font-weight: bold;
+}
+
+/** Content Block End **/
+
+/** Tout2 **/
+.Tout2
+{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.Tout2 .main
+{
+	border: solid 1px #e2e3e2;
+	min-height:126px;
+	overflow:hidden;
+}
+
+.Tout2 .lastgridchild
+{
+	margin-right: 0px;
+}
+
+.Tout2 a
+{
+	font-size: 12px;
+}
+
+.Tout2 p
+{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.Tout2 .grid-12
+{
+	width:470px;
+}
+.Tout2 .grid-8
+{
+	width: 313px;	
+}
+
+.Tout2 .TextBody
+{
+	padding: 10px 10px 10px 10px;
+	margin-left: 135px;
+}
+
+.Tout2 .TextBodyOnly
+{
+	margin-left: 0px;
+}
+
+.Tout2 .ImgBody
+{
+	padding: 0px;
+}
+
+/** Tout2 End **/
+
+
+/** Events Calendar **/
+.EventBlockOuter
+{
+	margin-bottom: 20px;
+	margin-left: 5px;
+}
+.EventBlockOuter .grid-4
+{
+	margin-right: 0px;
+	width: 135px;    	
+	background-color: #e2e3e2;
+}
+
+.EventBlock
+{
+	margin-bottom: 5px;
+	margin-right: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	background-color: #fff;  
+    height: 175px;
+    overflow: hidden;
+    position:relative;
+}
+
+.EventBlock .month
+{
+	font-size: 38px;
+	color: #e2e3e2;
+	font-family: 'Segoe UI',Arial,Sans-Serif;
+	position: absolute;
+	top: -10px;
+	left: 0px;
+}
+
+.EventBlockOuter .firstchild
+{
+	margin-left: 5px;
+}
+
+.EventBlock .Header .alloy
+{
+	color: #bdbec1;
+}
+
+.EventBlock .Header .today
+{
+	color: #77BB44;
+} 
+
+.EventBlock .TextBody
+{
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+.EventBlock .links div
+{
+	margin-top:10px;
+	font-size: 12px;
+}
+
+.EventBlock .links div:first-child
+{
+	margin-top:0px;
+}
+    
+/** Events Calendar End **/    
+
+/** Events Details Page  **/
+.EventDetails
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.EventDetails .TextBodyEvent
+{
+	margin-top: 20px;
+	margin-right: 15px;
+}
+
+.EventDetails h3
+{
+	font-weight: bold;
+}
+
+.EventDetails .pdDetails {
+	background:#eee;
+	font-weight:bold;
+	font-size:90%;
+	margin-right: 20px;
+	margin-left: 5px;
+}
+
+.EventDetails .pdDetails dl {
+	padding:0 10px;
+	margin:0;
+}
+
+.EventDetails .pdDetails dt {
+	padding-top:10px;
+	border-top: 1px #aaa solid;	
+	text-transform:uppercase;
+}
+
+.EventDetails .pdDetails dd {
+	margin-left:0;
+	padding-bottom:10px;
+	text-transform:none;
+}
+
+.EventDetails .pdDetails dt.first {
+	border-top:none; 
+}
+
+/** Events Details End **/    
+
+
+/** Homepage */
+
+.alertMessage  { 
+    margin-top:4px;
+    width:auto;
+    background: #FFF3CC;
+    padding: 3px 3px 3px 3px ;
+    border: solid 1px #999999;
+}     
+       
+
+.toutImg, .toutImg-2, .toutImg-5, .toutImg-6, .toutImg-8, .productImg-6 { 
+    width:auto;
+    height:118px;
+    overflow:hidden;
+}       
+
+.toutImg-2  { 
+    width:130px;
+    height:130px;
+}
+
+.toutImg-5  { 
+    width:187px;
+    height:190px;
+}
+
+.toutImg-6  { 
+    width:235px;
+    height:100px;
+    text-align:center;    
+}
+.toutImg-8  { 
+    width:315px;
+    height:128px;
+}
+
+.productImg-6
+{
+	width: 200px;
+	height: 190px;
+	text-align:center;
+	vertical-align:middle;
+	display:inline-block;
+	float:none;
+}
+
+.categoryImg
+{
+	width: 215px;
+	height: 190px;
+	text-align:right;
+}
+.HomeHeroImg  { 
+    overflow: hidden;
+    height:350px;
+            
+}
+
+.Hero 
+{   
+    padding-top: 4px;
+    overflow: hidden;
+    width:955px;
+}
+
+.ToutRow  { 
+    padding-top: 30px;
+    overflow: hidden;
+    width:100%;
+}
+
+.ToutRow p  { 
+    font-size:11px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.ToutRow .ToutBody
+{
+	position:relative;
+	margin-bottom: 20px;
+}
+
+.BottomBorder  { 
+    border-bottom:2px solid #CCC;
+	margin-bottom: 20px;
+}
+
+.ToutRow a  { 
+    font-size:12px;
+    font-weight:bold;
+}
+
+.ToutRow h3  {   
+    font-size:20px;
+    padding-top:20px;
+    margin:0px;
+}
+
+.ToutRow .TextBody
+{
+	padding-right: 15px;
+	padding-left: 10px;
+}
+
+
+/*** Img Rollover ***/
+.landing-cell {
+	POSITION: relative;
+}
+
+.landing-cell .image-placeholder {
+	Z-INDEX: 1; WIDTH: 100%; HEIGHT: 100px;
+	background-repeat:no-repeat;
+}
+
+.centertop {
+	BACKGROUND-POSITION: center top;
+}
+
+.centerbottom {
+	BACKGROUND-POSITION: center bottom;
+}
+
+.img-holder {
+	Z-INDEX: 5; POSITION: absolute; TOP: 0px; LEFT: 0px;
+}
+
+/*** Img Rollover END ***/
+
+/** listings pages*/
+
+/* Product filtering */
+.ListingOuter
+{
+	margin-bottom: 40px;
+}
+.ListingOuter .grid-14
+{
+	width: 590px;
+}
+
+.ListingOuter .grid-8
+{
+	width: 350px;
+}
+
+.ProductFilters
+{
+	margin: 0px;
+}
+
+.listingHeader
+{
+	font-weight:bold;
+	margin-bottom: 10px;
+}
+
+.ListingOuter .ContentBlock
+{
+	min-height: 100px;
+}
+
+.ListingOuter .ContentBlock .TextBody p
+{
+	margin-top: 0px;
+}
+
+.ListingOuter .ListDesc
+{
+	margin-bottom: 15px;
+}
+/******** Tabs! ******/
+
+.tabs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float:left;
+}
+
+.tabs a
+{
+	font-size: 12px;
+}
+
+.tabs li {
+	padding: 0;
+	line-height: 31px;	
+	background: #848589;
+	text-align:center;
+}
+
+.tabs .empty {
+	background: #e2e3e2;
+}
+
+.tabs .empty a
+{
+	cursor: text;	
+}
+
+.tabs .empty:hover
+{
+	background: #e2e3e2;
+	cursor:text;
+}
+.tabs li a {
+	text-decoration:none;
+	color: #fff;
+	display: block;
+	font-weight: bold;
+}
+
+.tabs li:hover
+{
+	background: #bdbec1;
+	cursor:pointer;
+}
+
+.tabs li.active
+{
+    background: #77bb44;
+}
+
+.tabContent .TabHeaderBlock 
+{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	min-height:0px;
+}
+
+.tabContainer 
+{
+    width:100%;	
+}
+
+/* 
+
+/*** Footer ***/
+.Footer 
+{
+	margin-top: 10px;
+    border-top: 1px solid #E2E3E2;
+    padding-left:10px;
+    padding-right: 10px;
+    font-size:12px;
+}
+/*** End Footer ***/
+
+
+/*** Article Page ***/
+.article .leftcontent {
+	max-width:600px;
+}
+
+.article h2, DIV#toc h2 {
+	padding-top:5px;
+	border-top:1px solid #e2e3e2;
+	margin-bottom:10px;
+}
+.article h3 {
+	font-weight:bold;
+	margin-bottom:0;
+	font-size:16px;
+}
+.article p {
+	margin:4px 0 18px;
+	line-height:1.4em;
+}
+.article a {
+	font-weight:normal;
+}
+.article a:hover { text-decoration:underline;}
+
+p.q { 
+	margin-bottom:0; 
+	padding-bottom:0; 
+}
+p.pubdate { font-size:12px; font-style:italic;}
+p.disclaimer { font-size:11px; font-style:italic; line-height:1.2em; }
+p.pullquote { 
+	text-align:center; 
+	width: 450px;
+	margin: 25px 0 25px 10px;  
+	padding:25px; 
+	font-size:15px;
+	font-style:italic;
+	line-height:1.3em; 
+	color:#393738; 
+	border-bottom:solid 1px #e2e3e2; 
+	border-top:solid 1px #e2e3e2; 
+}
+
+div.sidebar {
+    border:1px solid;
+    float:right;
+    margin:0 0 20px;
+    width:250px;
+    clear:right;
+}
+div.sidebar h3, div.sidebar p, div.sidebar ul {
+	max-width: 210px;
+}
+div.sidebar h2 {
+	background:#333132;
+	color:#fff;
+	padding:3px 8px;
+	margin:0 0 6px;
+	font-size:15px!important;
+	width:234px;
+}
+div.sidebar h3 {
+	font-size:14px;
+	margin:12px 12px 0;
+}
+div.sidebar p {
+	margin:0 12px 12px;
+}
+
+p.imgcaption {
+	font-size:11px;
+	margin-top:0;
+	padding-left:10px;
+}
+p.img {
+	margin-bottom:0;
+}
+
+DIV#toc
+{
+	margin-bottom: 20px;
+}
+
+DIV#toc ul
+{
+	margin-top: 0px;
+}
+
+.acticleHeader
+{
+	margin-bottom: 20px;
+}
+
+.acticleHeader h1
+{
+	margin-left: auto;
+	display: inline;
+}
+
+.acticleHeader > img
+{
+	float: right;
+	margin-left: 5px;
+}
+
+/*** End Article Page ***/
+
+/*** SL Video Player ***/
+/* Player Area */
+#VideoPlayer
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 955px;
+	height:350px;
+	overflow: hidden;
+	position:relative;	
+}
+
+#VideoPlayer div#SilverlightWrapper
+{
+	background-image: url(/web/20110702175726im_/http://www.xbox.com/shell/Hero/images/xbox_carousel_default.jpg);
+	background-position: left top;
+	background-repeat:no-repeat;
+	width: 100%;
+	height:100%;
+}
+
+#VideoPlayer div#VideoPlayerWrapper
+{
+	background-color: #1F1F1F;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#333333');
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+	background: -moz-linear-gradient(top, #000, #333);
+	width: 100%;
+	height:100%;
+}
+
+#PlayerWrapper
+{
+	width: 613px; 
+	height: 346px; 
+	display: inline-block;
+	float: left;
+	margin-left: 4px; margin-top: 4px;
+}
+
+/* Related Videos */
+#VideoDescriptionWrapper
+{
+	margin-left: 15px;
+	margin-right: 15px;
+	float: left;
+	height: 340px;
+	width: 308px;
+}
+
+#VideoDescriptionWrapper.loading
+{
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+}
+
+#VideoDescriptionWrapper .videoDetails
+{
+	height: 100%;
+	position: relative;
+}
+
+#VideoDescriptionWrapper .videoTitle
+{
+	font-family: 'Segoe UI', Arial, Sans-Serif;
+	color: #FEFEFE;
+	font-size: 20px;
+	line-height: 120%;
+	margin-top: 8px;
+	text-transform: uppercase;
+}
+
+#VideoDescriptionWrapper .videoDescription
+{
+	font-family: 'Segoe UI', Arial, Sans-Serif;
+	color: #FEFEFE;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#VideoDescriptionWrapper .videoLink
+{
+	margin-right: 5px;
+}
+
+#VideoDescriptionWrapper .videoLink a
+{
+	padding-right: 0px;
+}
+
+#VideoDescriptionWrapper .relatedBlockContainer
+{
+	position: absolute;
+	bottom: 0px;
+	color: #E0E0E0;
+}
+
+#VideoDescriptionWrapper .relatedBlockContainer .header
+{
+	font-family: 'Segoe UI', Arial, Sans-Serif;
+}
+
+#VideoDescriptionWrapper .relatedBlockContainer .lastchild
+{
+	margin-right: 0px;
+}
+
+#VideoDescriptionWrapper .relatedBlock
+{
+	position: relative;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+	float: left;
+	width: 145px;
+	overflow: hidden;
+	margin-right: 15px;
+}
+
+#VideoDescriptionWrapper .relatedBlockVideo
+{	
+	border: #333 2px solid;
+	width: 140px;
+	height: 110px;
+	overflow: hidden;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+#VideoDescriptionWrapper .relatedBlockVideo img
+{	
+	width: 140px;
+	height: 110px;
+}
+
+#VideoDescriptionWrapper .relatedBlockText
+{
+	font-size: 12px;
+}
+
+#VideoDescriptionWrapper .selected
+{
+    border: solid 2px #77BB44;
+}
+
+/* Carousel Area */
+#ScrollWrapper
+{
+	background-color: #1F1F1F;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#333333');
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+	background: -moz-linear-gradient(top, #000, #333);
+	width:955px;
+	margin-bottom: 20px;
+	max-height: 210px;
+	overflow: hidden;	
+}
+
+.Play
+{
+	background: url(/web/20110702175726im_/http://www.xbox.com/Content/images/Play.png) center no-repeat;
+	position: absolute;
+	top: 0;	left: 0;
+	width: 100%; height: 100%;	
+}
+
+#genreslider {
+	float: left; 
+	width: 865px;
+	overflow: hidden; 
+	z-index: 3;
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+}
+
+#genreslider ul {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline; list-style: none;
+}
+
+#genreslider li {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+
+#genreslider ul li {
+	padding: 0px 5px 0px 0px; float: left; position: relative; width: 169px;
+}
+
+.active#genreslider {	
+	position: relative;
+	top:auto;
+	left:auto;	
+}
+.active#genreslider ul {
+	 z-index: 3; position: relative;
+}
+
+#controllerL, #controllerR
+{
+    float:left; margin-left: 0px; min-height: 180px; width: 45px; position:relative;
+}
+
+#controllerR
+{
+	float: right;
+}
+
+#controllerL a, #controllerR a
+{
+	position:absolute;
+	margin-top:60px;	
+	background-image: url(/web/20110702175726im_/http://www.xbox.com/Shell/Images/MediaPlayerImageSheet.png);
+	background-repeat: no-repeat;
+	height: 42px;
+	width:100%;
+	display:block;
+}
+#controllerL a
+{
+	background-position: 0px -2px;
+}
+#controllerR a
+{
+	background-position: 0px -42px;
+}
+
+#controllerL a:hover, #controllerL a:focus
+{
+	background-position: -40px -2px;
+}
+
+#controllerR a:hover, #controllerR a:focus
+{
+	background-position: -40px -42px;
+}
+
+#genreslider .tile
+{
+	color: #bdbec1;
+	font-size: 12px;
+	padding-right: 5px;	
+	padding-left: 5px;
+}
+
+#genreslider .tile_img
+{
+	position:relative;
+    width: 165px; height:130px;
+    margin-bottom: 10px;
+    overflow:hidden;
+    border: solid 2px #333;
+}
+
+#genreslider .selected
+{
+    border: solid 2px #77BB44;
+}
+
+/* Popup Video Player*/
+#PlayerPopupWrapper
+{
+	width: 715px; height: 400px;
+	display: inline-block;
+}
+
+div#popupVideoPlayer
+{
+	z-index:100; 
+	display:none; 
+	position:fixed; 
+	width: 100%; 
+	height: 100%; 
+	top: 0px; 
+	left: 0px;
+	text-align:center;
+}
+
+div#popupBackground
+{
+	filter: Alpha(Opacity=70); 
+	opacity: 0.7; 
+	background-color: #839299; 
+	width: 100%; 
+	height: 100%; 
+	position: fixed; 
+	top: 0px; 
+	left: 0px; 
+	text-align:center;
+}
+
+div#popupBackground:hover, #popupVideoPlayer .popupPlayer:hover
+{
+	cursor:pointer;
+}
+ 
+#popupVideoPlayer .popupPlayer
+{
+	position:absolute; 
+	left:50%;
+}
+
+#popupVideoPlayer .modalContainer
+{
+	position: relative; left: -50%; 
+	z-index: 1000; 
+	top: 150px;
+}
+/*** End SL Video Player ***/
+
+/*** Blog/Forum Content ***/
+.CommunityContent
+{
+	margin-top: 20px;
+}
+.CommunityContent .grid-12
+{
+	width: 470px;
+	margin-right: 15px;
+}
+
+.CommunityContent .lastgridchild
+{
+	margin-right: 0px;
+}
+.CommunityContent .PostBlock
+{
+	margin-top: 15px;
+}
+
+.CommunityContent .PostBlock .postText
+{
+	float: left;
+	color:#848589;
+	width: 385px;
+}
+
+.CommunityContent .PostBlock .postText p
+{
+	margin-top: 10px;
+}
+
+.CommunityContent .PostBlock .postImg
+{
+	float: left;
+	width: 64px;
+	height: 64px;
+	margin-right: 20px;
+	overflow:hidden;
+}
+
+.CommunityContent .PostBlock .description a
+{
+	font-weight: normal;
+}
+
+.CommunityContent .PostBlock .title a
+{
+	color:#848589;
+}
+
+.CommunityContent .PostBlock .title a:hover {
+	color:#2b9646;
+}
+.CommunityContent .SpaceLBorderChill1
+{
+	margin-top: 15px;
+}
+.CommunityContent .CallToAction
+{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+/*** End Blog/Forum Content ***/
+
+/*** Gamer Spotlight  ***/
+.GamerSpotlight
+{
+	position: relative;
+}
+
+.GamerSpotlight .header
+{
+	width: 955px;
+	height: 224px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.GamerSpotlight h1
+{
+	color: #FFFFFF;
+	margin-bottom: 0px;
+}
+
+.GamerSpotlight .header > div
+{
+	margin-right: 245px;
+	margin-left: 220px;
+	text-align:right;
+	color: #FFFFFF;
+	padding-top: 20px;
+}
+
+.GamerSpotlight .header .subheader
+{
+	font-size: 10px;
+}
+
+.GamerSpotlight .header .description
+{
+	padding-top: 20px;
+}
+
+.GamerSpotlight .avatarBody
+{
+	position: absolute; 
+	top: -20px; 
+	right: 0px;
+}
+
+.GamerSpotlight .defaultAvatar
+{
+	top: -70px; 
+	right: 0px;
+}
+
+.GamerSpotlight .defaultAvatar > img
+{
+	width: 235px;
+}
+
+.GamerSpotlight div.favorites
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.GamerSpotlight .favorites > div
+{
+	margin-right: 20px;
+	float: left;
+}
+
+.GamerSpotlight .artImage
+{
+	margin-bottom: 10px;
+}
+
+.GamerSpotlight .artImage img
+{
+	height: 120px;
+	overflow: hidden;
+}
+
+.GamerSpotlight div.favorites a
+{
+	font-weight: normal;
+}
+
+.GamerSpotlight div.mainContent
+{
+	margin-bottom: 10px;
+}
+
+.GamerSpotlight div.interview
+{
+	margin-right: 320px;
+}
+
+.GamerSpotlight div.rightContentBar
+{
+	float: right;
+	width: 300px;
+	background-color: #E2E2E2;
+}
+
+.GamerSpotlight .rightContentBar .ContentBlock
+{
+	margin-top: 0px;
+}
+
+.GamerSpotlight .rightContentBar div.TextBody
+{
+	margin: 10px 15px;
+}
+
+.GamerSpotlight .rightContentBar div.CTA
+{
+	text-align: center;
+	margin-top: 20px;
+}
+.GamerSpotlight .pastGamers
+{
+	padding-top: 20px;	
+	padding-bottom: 20px;	
+}
+
+.GamerSpotlight .pastGamers > div
+{
+	width: 90px;
+	overflow: hidden;
+	margin-right: 5px;
+	float: left;	
+}
+
+.GamerSpotlight .pastGamers .gamerImg
+{
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+}
+
+.GamerSpotlight .pastGamers .defaultGamer img
+{
+	width: 90px;
+}
+
+.GamerSpotlight .pastGamers h3
+{
+	margin-top: 10px;
+	font-size: 11px;
+}
+
+.GamerSpotlight .pastGamers h3
+{
+	word-wrap: normal;
+}
+/*** End Gamer Spotlight ***/
+
+/* ColumnContent */
+.ColumnContent
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid 1px #e2e3e2;	
+}
+
+.ColumnContent .grid-6 > div
+{
+	padding-right: 10px;
+}
+
+.ColumnContent .grid-6 h3
+{
+	margin: 0;
+	font-weight: bold;
+}
+
+.ColumnContent .grid-6 p
+{
+	margin-top: 0px;
+}
+
+.ColumnContent > .CallToAction
+{
+	margin-top: 20px;
+}
+
+/* Marketplace Block*/
+.MarketplaceBlock
+{
+	padding-top: 20px;
+	border-bottom: solid 1px #e2e3e2;
+}
+
+.MarketplaceBlock > .grid-12
+{
+	margin-bottom: 25px;
+}
+
+.MarketplaceBlock .grid-10
+{
+	width: 370px;
+}
+
+.MarketplaceBlock .grid-10 > div
+{
+	margin-right: 15px;
+}
+
+.MarketplaceBlock .grid-10 h3
+{
+	font-weight: bold;
+}
+
+.MarketplaceBlock .grid-2
+{
+	width: 100px;
+}
+
+.MarketplaceBlock .grid-2 > div
+{
+	margin-right: 15px;
+}
+
+/* ContentHeader */
+.ContentHeader
+{
+	padding-top: 15px;
+	border-bottom: solid 1px #e2e3e2;
+}
+
+.ContentHeader > div
+{
+	margin-bottom: 20px;
+}
+
+.ContentHeader .grid-6 + .lastgridchild
+{
+	float: right;
+}
+
+.ContentHero
+{
+	position: relative;
+	width: 955px;
+	overflow: hidden;
+}
+
+.ContentHero > div
+{
+	position: absolute;
+	top: 21px;
+	left: 28px;
+}
+
+.ContentHero h3
+{
+	font-size: 36px;
+	line-height: 100% !important;
+	margin: 0px;
+}
+
+IMG.promoImg
+{
+	padding: 20px 0;
+}
+
+/* Game Playe Page */
+.gamePlayers .BannerN 
+{
+    border-width: 0px;
+    border-top: 1px solid #e2e3e2;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+    
+.gamePlayers .BannerN h3
+{
+    font-size: 14px;
+    font-family: 'Segoe UI', Arial, Sans-Serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    
+.gamePlayers .BannerN > div p
+{
+    font-size: 11px;
+    font-family: 'Segoe UI', Arial, Sans-Serif;
+    line-height: 150%;
+}
+/*
+     FILE ARCHIVED ON 17:57:26 Jul 02, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:41:33 May 11, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 6.48
+  load_resource: 170.033
+  PetaboxLoader3.resolve: 160.707
+  PetaboxLoader3.datanode: 8.002
+*/
