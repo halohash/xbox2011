@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+
+
+  <tracking trackingId="msxboxcom{0}enUS"
+            locale="en-US"
+            dc="112"
+            visitorNamespace="microsoftxbox"
+            pageUrl=""
+            channel="myxbox"
+            trackingServer = "o.xbox.com"
+            trackingServerSecure = "s.xbox.com"
+            trackInlineStats = "true"
+            />
+            
+  <!-- FONT DESCRIPTIONS - MUST MATCH FONTS.ZIP ARCHIVE CONTENTS -->
+  <fonts>
+    <font id="segoeRegular" name="Segoe" file="segoerg.ttf" />
+    <font id="segoeLight" name="Segoe Light" file="segoeL.ttf" />
+    <font id="segoeBold" name="Segoe" file="segoebd.ttf" />
+    <font id="arialRegular" name="Arial" file="" />
+    <font id="arialBold" name="Arial" file="Arial Bold.ttf" />
+  </fonts>
+  
+  <!-- AGE GATE -->
+  <ageGate order="ddmmyyyy" lockoutPeriod="5">
+    <text id="day" size="16" font="segoeRegular" x="0" y="0"><![CDATA[DD]]></text>
+    <text id="month" size="16" font="segoeRegular" x="0" y="0"><![CDATA[MM]]></text>
+    <text id="year" size="16" font="segoeRegular" x="0" y="0"><![CDATA[YYYY]]></text>
+    <text id="default" size="20" font="segoeLight" x="0" y="0">
+      <![CDATA[Please Enter Your Date of Birth.]]>
+    </text>
+    <text id="success" size="18" font="segoeLight" x="0" y="0"><![CDATA[SUCCESS]]></text>
+    <text id="invalid" size="12" font="arialRegular" x="0" y="0"><![CDATA[Please enter a valid date.]]></text>
+    <text id="failure" size="18" font="segoeLight" x="0" y="0">
+      <![CDATA[Sorry, this content is not available <br>for your age group.]]>
+    </text>
+    <text id="submit" size="12" font="segoeBold" x="0" y="5"><![CDATA[Submit]]></text>
+    <text id="back" size="14" font="segoeBold" x="0" y="5"><![CDATA[Back]]></text>
+  </ageGate>
+  
+  <!-- VIDEO PLAYER GLOBALS-->
+  <videoPlayer>
+    <bufferingText size="40" font="segoeLight" x="0" y="0"><![CDATA[Buffering...]]></bufferingText>
+  </videoPlayer>
+  
+  <!-- ###############################################################
+        SLIDES 
+       ############################################################### -->
+  <slides>
+
+    <slide id="6a6148d5-9cf8-4570-af71-52e1c8698163" imgPath="http://nxeassets.xbox.com/shaxam/0201/94/23/94234f56-4166-4ce9-92f4-a7044fe0c63a.JPG?v=2#hero-CODBO_Annihilation.JPG" xapPath="http://nxeassets.xbox.com/shaxam/0201/68/27/6827edb0-4278-43bc-b13e-189251365111.WMV?v=2#hero-CODBO_Annihilation.WMV">
+      
+      <label size="36" font="segoeLight" x="0" y="0" color="#FFFFFF">
+          <![CDATA[First on Xbox LIVE<br>Download now!]]>
+      </label>
+      
+      
+      <video esrb="false" ageGate="true"
+             id="video0"
+             captionId="c0887bd6-eca9-46fc-b184-19c40678db93"
+             trackingLabel=""
+             ageGateMinAge="17"
+             esrbPath=""
+             vidPath="http://nxeassets.xbox.com/shaxam/0201/79/30/7930e070-493d-4a3d-8e37-b08ae5882754.WMV?v=1#video_BurgerMan.WMV"
+             >
+        <share sharePath="">
+          <shareTitle size="14" font="segoeLight" x="0" y="0"><![CDATA[]]> </shareTitle>
+          
+          <!-- MAYBE ADD IMAGE NODE -->
+        </share>
+      </video>
+
+      
+      <buttons>
+
+        <button id="Button1"
+                iconType="url"
+                size="12" 
+                font="arialBold" 
+                x="0" 
+                y="0"
+                destUrl="http://marketplace.xbox.com/en-US/Product/Annihilation-EN/e06f64c5-97c3-46a8-9e23-2a49769d5965"
+                destTarget=""
+                videoId=""
+                class="ctaButton_1">
+          <![CDATA[Learn more]]>
+        </button>
+
+        <button id="Button2"
+                iconType="video"
+                size="12" 
+                font="arialBold" 
+                x="0" 
+                y="0"
+                destUrl=""
+                destTarget=""
+                videoId="video0">
+          <![CDATA[Watch now]]>
+        </button>
+
+      </buttons>
+
+      <download_link destUrl="http://www.microsoft.com/getsilverlight/">
+        <![CDATA[Download Silverlight]]>
+      </download_link>
+
+      <misc_link destUrl="http://www.microsoft.com/getsilverlight/">
+        <![CDATA[To view this video upgrade to the latest version of Silverlight.]]>
+      </misc_link>
+
+    </slide>
+
+    <slide id="04c3f64e-ba14-441b-8896-42d6b77f6532" imgPath="http://nxeassets.xbox.com/shaxam/0201/b7/dc/b7dc288f-6421-4438-8c18-aafaa344f24b.JPG?v=1#UFC_Trainer.JPG" xapPath="http://nxeassets.xbox.com/shaxam/0201/d9/af/d9af36d9-7886-4dd0-b266-df4ebf881d82.WMV?v=1#UFC_Trainer.WMV">
+      
+      <label size="36" font="segoeLight" x="0" y="0" color="#ffffff">
+          <![CDATA[UFC Personal Trainer<br>Available now]]>
+      </label>
+      
+      
+      <video esrb="false" ageGate="false"
+             id="video0"
+             captionId="9fca9529-1956-492d-aa5f-6196a2526431"
+             trackingLabel=""
+             ageGateMinAge=""
+             esrbPath=""
+             vidPath="http://nxeassets.xbox.com/shaxam/0201/43/37/4337eba4-d5c1-487e-bbe8-eb4fcf9e858b.WMV?v=1#UFCTrainer2.WMV"
+             >
+        <share sharePath="">
+          <shareTitle size="14" font="segoeLight" x="0" y="0"><![CDATA[]]> </shareTitle>
+          
+          <!-- MAYBE ADD IMAGE NODE -->
+        </share>
+      </video>
+
+      
+      <buttons>
+
+        <button id="Button1"
+                iconType="url"
+                size="12" 
+                font="arialBold" 
+                x="0" 
+                y="0"
+                destUrl="http://marketplace.xbox.com/en-US/Product/UFC-Personal-Trainer/66acd000-77fe-1000-9115-d8025451085b"
+                destTarget=""
+                videoId=""
+                class="ctaButton_1">
+          <![CDATA[Learn more]]>
+        </button>
+
+        <button id="Button2"
+                iconType="video"
+                size="12" 
+                font="arialBold" 
+                x="0" 
+                y="0"
+                destUrl=""
+                destTarget=""
+                videoId="video0">
+          <![CDATA[Watch now]]>
+        </button>
+
+      </buttons>
+
+      <download_link destUrl="http://www.microsoft.com/getsilverlight/">
+        <![CDATA[Download Silverlight]]>
+      </download_link>
+
+      <misc_link destUrl="http://www.microsoft.com/getsilverlight/">
+        <![CDATA[To view this video upgrade to the latest version of Silverlight.]]>
+      </misc_link>
+
+    </slide>
+
+    <slide id="1906941f-50c4-4980-904d-5dbff0563d4a" imgPath="http://nxeassets.xbox.com/shaxam/0201/71/9d/719d719f-c8c3-4a5d-b64a-f49f19f2f26c.JPG?v=1#hero-ChildofEden.JPG" xapPath="http://nxeassets.xbox.com/shaxam/0201/16/cf/16cf08fd-a5e0-497e-bfd6-6001a593ecb7.WMV?v=1#hero-ChildofEden.WMV">
+      
+      <label size="36" font="segoeLight" x="0" y="0" color="#ffffff">
+          <![CDATA[Dive into this<br>multi-sensory<br>shooter!]]>
+      </label>
+      
+      
+      <video esrb="false" ageGate="false"
+             id="video0"
+             captionId="1f8871d4-da24-4097-b7ba-b1a1d4c6207f"
+             trackingLabel=""
+             ageGateMinAge=""
+             esrbPath=""
+             vidPath="http://nxeassets.xbox.com/shaxam/0201/39/88/39889212-c277-4e73-8337-c2582a8c22fd.WMV?v=1#E3-COE-800kbps.WMV"
+             >
+        <share sharePath="">
+          <shareTitle size="14" font="segoeLight" x="0" y="0"><![CDATA[]]> </shareTitle>
+          
+          <!-- MAYBE ADD IMAGE NODE -->
+        </share>
+      </video>
+
+      
+      <buttons>
+
+        <button id="Button1"
+                iconType="url"
+                size="12" 
+                font="arialBold" 
+                x="0" 
+                y="0"
+                destUrl="http://marketplace.xbox.com/en-US/Product/Child-of-Eden/66acd000-77fe-1000-9115-d8025553084c"
+                destTarget=""
+                videoId=""
+                class="ctaButton_1">
+          <![CDATA[Learn more]]>
+        </button>
+
+        <button id="Button2"
+                iconType="video"
+                size="12" 
+                font="arialBold" 
+                x="0" 
+                y="0"
+                destUrl=""
+                destTarget=""
+                videoId="video0">
+          <![CDATA[Watch now]]>
+        </button>
+
+      </buttons>
+
+      <download_link destUrl="http://www.microsoft.com/getsilverlight/">
+        <![CDATA[Download Silverlight]]>
+      </download_link>
+
+      <misc_link destUrl="http://www.microsoft.com/getsilverlight/">
+        <![CDATA[To view this video upgrade to the latest version of Silverlight.]]>
+      </misc_link>
+
+    </slide>
+
+    <slide id="898d327c-79f2-4363-b3ca-5e217208eebf" imgPath="http://nxeassets.xbox.com/shaxam/0201/89/30/8930ecd5-3e05-4c50-85ef-b4710b9eb017.JPG?v=1#AngryBirds.JPG" xapPath="http://nxeassets.xbox.com/shaxam/0201/54/ee/54eed8a6-931d-4999-84c9-d53b6dae4cc7.WMV?v=1#AngryBirds.WMV">
+      
+      <label size="36" font="segoeLight" x="0" y="0" color="#434347">
+          <![CDATA[Angry Birds<br>Available now for<br>Windows Phone]]>
+      </label>
+      
+      
+      <video esrb="false" ageGate="false"
+             id="video0"
+             captionId="361002a7-3987-4c43-9c47-554c4f92b21d"
+             trackingLabel=""
+             ageGateMinAge=""
+             esrbPath=""
+             vidPath="http://nxeassets.xbox.com/shaxam/0201/5a/c4/5ac48240-3849-484a-b7f7-c476aefa1603.WMV?v=1#MSFT_MHG_Szl_V7a_Hi-Res.WMV"
+             >
+        <share sharePath="">
+          <shareTitle size="14" font="segoeLight" x="0" y="0"><![CDATA[]]> </shareTitle>
+          
+          <!-- MAYBE ADD IMAGE NODE -->
+        </share>
+      </video>
+
+      
+      <buttons>
+
+        <button id="Button1"
+                iconType="url"
+                size="12" 
+                font="arialBold" 
+                x="0" 
+                y="0"
+                destUrl="http://www.xbox.com/en-US/Live/Mobile/MustHaveGames"
+                destTarget=""
+                videoId=""
+                class="ctaButton_1">
+          <![CDATA[Learn more]]>
+        </button>
+
+        <button id="Button2"
+                iconType="video"
+                size="12" 
+                font="arialBold" 
+                x="0" 
+                y="0"
+                destUrl=""
+                destTarget=""
+                videoId="video0">
+          <![CDATA[Watch now]]>
+        </button>
+
+      </buttons>
+
+      <download_link destUrl="http://www.microsoft.com/getsilverlight/">
+        <![CDATA[Download Silverlight]]>
+      </download_link>
+
+      <misc_link destUrl="http://www.microsoft.com/getsilverlight/">
+        <![CDATA[To view this video upgrade to the latest version of Silverlight.]]>
+      </misc_link>
+
+    </slide>
+
+  </slides> 
+  <captions active="true">
+  
+    <caption id="c0887bd6-eca9-46fc-b184-19c40678db93">
+      <time>
+
+      </time>
+      <text>
+
+      </text>
+    </caption>
+  
+    <caption id="9fca9529-1956-492d-aa5f-6196a2526431">
+      <time>
+
+      </time>
+      <text>
+
+      </text>
+    </caption>
+  
+    <caption id="1f8871d4-da24-4097-b7ba-b1a1d4c6207f">
+      <time>
+
+      </time>
+      <text>
+
+      </text>
+    </caption>
+  
+    <caption id="361002a7-3987-4c43-9c47-554c4f92b21d">
+      <time>
+
+      </time>
+      <text>
+
+      </text>
+    </caption>
+
+  </captions>
+</data>
