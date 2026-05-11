@@ -1,0 +1,730 @@
+body
+{
+    background-color: #F7F7F7;
+    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/images/motional.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #848589;
+    font-family: Arial, Sans-Serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+/* column container to handle client windows taller than 2000px (will flow beyond the motional background) */
+body > div#bodycolumn
+{
+    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/images/bodycolumn.png);
+    background-position: center top;
+    background-repeat: repeat-y;
+}
+
+a, a:visited
+{
+    color: #77BB44;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:focus
+{
+    color: #2b9646;
+    cursor: pointer; /* For javascript-only links */
+}
+
+a:active
+{
+	color: #00723b;
+}
+
+a.nohover:hover
+{
+    text-decoration:none;
+}
+
+a img
+{
+    border: none;
+    border-collapse: collapse;
+}
+
+hr
+{
+	background-color: #bdbec0;
+	border: 0;
+	color: #bdbec0;
+	height: 1px;
+	margin-bottom: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6
+{
+	color: #848589;
+	font-weight: normal;
+	font-family: 'Segoe UI', Arial, Sans-Serif;
+}
+
+h1
+{
+	font-size: 35px;
+	margin: 5px 0 20px -2px;
+}
+
+h1.Alternate, h1 .Alternate,
+h2.Alternate, h2 .Alternate
+{
+	color: #2b9646;
+}
+
+h1.Live, h1 .Live,
+h2.Live, h2 .Live 
+{
+	color: #fbb040;
+}
+
+h2
+{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+h3
+{
+	font-size: 16px;
+}
+
+h4
+{
+	font-size: 14px;
+	margin: 10px 0;
+	text-transform: uppercase;
+}
+
+h5
+{
+	font-weight: bold;
+}
+
+h2:first-child, h3:first-child, h4:first-child
+{
+	margin-top: 0;
+}
+
+/* Alert Box Styles */
+.StatusMessage
+{
+    overflow: hidden;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.StatusMessage .Message
+{
+    line-height: 26px; /* to match the icon height */
+}
+
+.StatusMessage .Icon
+{
+    float: left;
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+
+.StatusMessage .NotificationAlertIcon
+{
+    background-image: url(/web/20110702175616im_/http://www.xbox.com/Content/images/notification_alerts.png);
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.Alert
+{
+    background-color: #FF7200;
+    color: White;
+}
+
+.Alert .Icon
+{
+    background-image: url(/web/20110702175616im_/http://www.xbox.com/Content/images/XboxCom_Icons.png);
+    background-position: -10px -280px;
+}
+
+.Alert .FixIt, .Alert .FixIt:hover, .Alert .FixIt:visited
+{
+    /* TODO: Fix the position when we have an updated image sheet */
+    background-image: url(/web/20110702175616im_/http://www.xbox.com/Content/images/XboxCom_Icons.png);
+    background-repeat: no-repeat;
+    background-position: right -227px;
+    margin-right: 36px;
+    color: White;
+}
+
+.Success .Icon
+{
+    background-image: url(/web/20110702175616im_/http://www.xbox.com/Content/images/XboxCom_Icons.png);
+    background-position: -10px -330px;
+}
+
+.LoadingImage
+{
+    height: 26px;
+    width: 26px;
+}
+
+/*Button styles*/
+button, input[type=submit], input[type=button]
+{
+	overflow: visible; /* Required by IE7 to overcome min-width bug */
+	min-width: 95px;
+    height: 25px;
+    color: White;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #77BB44;
+    border: solid 1px White;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+button.CallToAction, input[type=submit].CallToAction, input[type=button].CallToAction
+{
+	padding: 0px 55px 0px 10px;
+}
+
+button:hover,  input[type=submit]:hover, input[type=button]:hover, 
+button:focus,  input[type=submit]:focus, input[type=button]:focus
+{
+    background-color: #848589;
+}
+
+button.CancelButton, .CancelButton[type=button], .CancelButton[type=submit], 
+button.BackButton, .BackButton[type=button], .BackButton[type=submit], 
+button.cancel, button.prev
+{
+    background-color: #BDBEC1;
+}
+
+.CancelButton[type=button]:hover, .CancelButton[type=button]:focus,
+.CancelButton[type=submit]:hover, .CancelButton[type=submit]:focus,
+.BackButton[type=button]:hover,   .BackButton[type=button]:focus,
+.BackButton[type=submit]:hover,   .BackButton[type=submit]:focus,
+button.CancelButton:hover, button.CancelButton:focus, 
+button.cancel:hover, button.cancel:focus, 
+button.prev:hover, button.prev:focus
+{
+    background-color: #848589;
+}
+
+button.IconButton, .IconButton[type=button], .IconButton[type=submit]
+{
+    min-width: 0;
+    line-height: normal;
+    padding: 0px;
+}
+
+/* Call To Action style for links/buttons/div */
+.CallToAction
+{
+	background-color: #77bb44;
+	background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/Images/Shell_Icons.png);
+	background-position: right -325px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	font-size: 12px;
+	line-height: 25px;
+	padding: 0 55px 0 10px;
+	min-width: 95px;
+	white-space: nowrap;
+}
+
+.CallToAction, .CallToAction:hover, .CallToAction:visited, .CallToAction:focus
+{
+	color: #fff;
+}
+
+.CallToAction:hover, .CallToAction:focus
+{
+	background-color: #2b9646;
+	background-position: right -375px;
+	text-decoration: none;
+}
+
+/* Product filtering */
+.ProductFilters
+{
+	clear: both;
+	font-size: 14px;
+}
+
+.ProductFilters a
+{
+	font-weight: normal;
+}
+
+.ProductFilters ol
+{
+	color: #848589;
+	font-weight: bold;
+	line-height: 1.3em;
+	list-style: none;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+/* Tab behavior for links */
+.Tab, .Tab:visited, .Tab:hover
+.HighlightedTab, .HighlightedTab:visited, .HighlightedTab:hover
+{
+    height: 21px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    padding-right: 2em;
+    text-transform: uppercase;
+    float: left;
+}
+
+.HighlightedTab, .HighlightedTab:visited
+{
+    color: #393738;
+    height: 21px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    padding-right: 2em;
+    text-transform: uppercase;
+    float: left;
+}
+
+/* makes link same as button */
+.Link, .Link:visited, .Link:hover,
+.HighlightedLink, .HighlightedLink:visited, .HighlightedLink:hover
+{
+    height: 21px;
+    background-color: #BDBEC1;
+    color: White;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    border: solid 1px White;
+    text-decoration: none;
+    padding-top:2px;
+}
+
+.HighlightedLink, .HighlightedLink:visited
+{
+    background-color: #77BB44;
+}
+
+.HighlightedLink:hover
+{
+    background-color: #2CA243;
+}
+
+.Link:hover
+{
+    background-color: #848589;
+}
+
+.Highlight
+{
+	color: #2CA243;
+}
+
+.ConfirmDialog
+{
+	background: #77BB44;
+	color: #FFF;
+	border: 0;
+	padding: 0;
+	border-bottom: solid 2px #77BB44;
+}
+
+.WarningDialog
+{
+    background: #FAAF40;
+	color: #FFF;
+	border: 0;
+	padding: 0;
+	border-bottom: solid 2px #FAAF40;
+}
+
+.ErrorDialog
+{
+    background: #ED1C24;
+	color: #FFF;
+	border: 0;
+	padding: 0;
+	border-bottom: solid 2px #ED1C24;
+}
+
+.Legal
+{
+	font-size: 10px;
+	padding-top: 20px;
+}
+
+.Disclaimer
+{
+    padding: 10px 0;
+}
+
+/* Media control */
+#MediaControl
+{
+    background-color: #333;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#333333');
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+    background: -moz-linear-gradient(top, #000, #333);
+    font-size: 14px;
+    height: 402px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+#MediaControl
+{
+    color: #fff;
+}
+
+#MediaControl .TabPage a
+{
+    font-weight: normal;
+}
+
+#MediaControl img.boxart, #MediaControl .Text
+{
+    margin: 20px;
+}
+
+#MediaControl ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#MediaControl h4
+{
+    color: #bdbec0;
+}
+
+#MediaControl label
+{
+    color: #bdbec0;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Arial, Sans-Serif;
+}
+
+#MediaControl #upArrow,
+#MediaControl #downArrow
+{
+    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/images/XboxComMP_Icons_info.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+#MediaControl #upArrow
+{
+    background-position: -10px -2530px;
+    top: 138px;
+    right: 10px;
+}
+
+#MediaControl #upArrow:hover
+{
+    background-position: -10px -2580px;
+}
+
+#MediaControl #downArrow
+{
+    background-position: -10px -2630px;
+    top: 328px;
+    right: 10px;
+}
+
+#MediaControl #downArrow:hover
+{
+    background-position: -10px -2680px;
+}
+
+#MediaControl .TabPage
+{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 715px;
+}
+
+#MediaControl .TabPage .fullImage
+{
+    width: 100%;    
+}
+
+#MediaControls
+{
+    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/images/opacity60_black.png);
+    background-repeat: repeat;
+    bottom: 0;
+    height: 42px;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#MediaControls > a, #MediaControls > div
+{
+    float: left;
+}
+
+#MediaControls a
+{
+    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/images/MediaPlayerImageSheet.png);
+    background-repeat: no-repeat;
+}
+
+#MediaControls a, #MediaControls .spacer
+{
+    display: block;
+    line-height: 42px;
+    padding-left: 32px;
+    overflow: hidden;
+    width: 173px;
+}
+
+#MediaControls a:hover
+{
+    text-decoration: none;
+}
+
+#MediaControls .Selected #image:hover, #MediaControls .Selected #overview:hover, #MediaControls .Selected #video:hover
+{
+    color: #fff !important;
+}
+
+#MediaControls #image, #MediaControls .Selected #image:hover
+{
+    background-position: -10px -81px;
+}
+
+#MediaControls #image:hover, #MediaControls #image:focus
+{
+    background-position: -10px -196px;
+}
+
+#MediaControls #overview, #MediaControls .Selected #overview:hover
+{
+    background-position: -10px -161px;
+}
+
+#MediaControls #overview:hover, #MediaControls #overview:focus
+{
+    background-position: -10px -276px;
+}
+
+#MediaControls #video, #MediaControls .Selected #video:hover
+{
+    background-position: -10px -121px;
+}
+
+#MediaControls #video:hover, #MediaControls #video:focus
+{
+    background-position: -10px -236px;
+}
+
+#MediaControls .Selected
+{
+    background-color: #000;
+}
+
+#MediaControls .Selected a
+{
+    color: #fff;
+}
+
+#MediaControls #previous, #MediaControls #next
+{
+    height: 42px;
+    width: 50px;
+}
+
+#MediaControls #previous
+{
+    background-position: 2px -2px;
+    padding-left: 0;
+}
+
+#MediaControls #previous:hover, #MediaControls #previous:focus
+{
+    background-position: -38px -2px;
+}
+
+#MediaControls #next
+{
+    background-position: 2px -42px;
+    padding-left: 0;
+}
+
+#MediaControls #next:hover, #MediaControls #next:focus
+{
+    background-position: -38px -42px;
+}
+
+#MediaControls .index
+{
+    color: #fff;
+    font-weight: normal;
+}
+
+/* Silverlight video player */
+#silverlightVideoHost
+{
+    position: absolute;
+    z-index: 19;
+}
+
+#silverlightVideoHost a
+{
+    display: block;
+    margin: 150px 0 0 250px;
+}
+
+.silverlightVideoHost
+{
+    height: 402px;
+    cursor: pointer;
+    position: relative;
+}
+
+.silverlightVideoHost .Play
+{
+    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/Images/Play.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.silverlightVideoHost .Play:hover
+{
+    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/images/PlayHover.png);
+}
+
+/* BannerN */
+.BannerN
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid 1px #e2e3e2;
+}
+
+.BannerN > div
+{
+	overflow: hidden;
+}
+
+.BannerN > .grid-5
+{
+    width: 187px;
+}
+
+.BannerN > .grid-3_5
+{
+	float: left;
+    width: 132px;    
+    margin-right: 5px;
+    display: inline;
+}
+
+.BannerN .lastgridchild
+{
+	margin-right: 0px;
+}
+
+.BannerN > div > p
+{
+    margin: 0px;
+}
+
+.BannerN > div > a
+{
+    display: block;
+}
+
+.BannerN > div > a > img
+{
+    display: block;
+}
+
+/* ToutN */
+.ToutN
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.ToutN > .grid-5
+{
+    width: 187px;
+}
+
+.ToutN img
+{
+	float: left;
+	margin: 0 15px 15px 5px;
+	display: block;
+}
+
+.ToutN > div h4
+{
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+.ToutN > div > div
+{
+	clear: right;
+	display:table-cell;
+	padding-right: 10px;
+}
+
+.ToutN a
+{
+	font-size: 12px;
+}
+
+
+/*
+     FILE ARCHIVED ON 17:56:16 Jul 02, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:41:33 May 11, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.682
+  load_resource: 99.716
+  PetaboxLoader3.resolve: 88.464
+  PetaboxLoader3.datanode: 10.21
+*/
