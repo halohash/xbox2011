@@ -28,7 +28,7 @@ body div#BodyHeader div#ShellHeaderContent
 body div#BodyHeader div#ShellLinkArea
 {
     background-color:#f7f7f7;
-    background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/topbanner-fade.png);
+    background-image:url(/Shell/images/topbanner-fade.png);
     background-repeat:repeat-x;
     background-position:bottom left;
     height:32px;
@@ -105,7 +105,7 @@ div#ShellHeaderContent div#ShellMeBarArea div#ShellLogo
     height:40px;
     width:130px;
     background-color:White;
-    background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/logo.png);
+    background-image:url(/Shell/images/logo.png);
     background-position:center center;
     background-repeat:no-repeat;
     cursor:pointer;
@@ -145,7 +145,7 @@ div#ShellHeaderContent div#ShellMeBarArea div.LinkArea a
 
 div#ShellHeaderContent div#ShellMeBarArea div#HeadShotBox.SignedOut
 {
-    background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/headbox-signedout.png);
+    background-image:url(/Shell/images/headbox-signedout.png);
     background-position:bottom right;
     background-repeat:no-repeat;
 }
@@ -161,7 +161,7 @@ div#ShellHeaderContent div#ShellMeBarArea div#ShellMeBar.SignedOut div.GamerStat
     padding-right:104px;
     padding-top:1px;
     height:20px;
-    background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/xboxlive.png);
+    background-image:url(/Shell/images/xboxlive.png);
     background-position:center right;
     background-repeat:no-repeat;
     font-size:16px;
@@ -222,7 +222,7 @@ div#ShellMeBar.SignedIn div.GamerStatArea div.gamerscore
     height:18px;
     margin-left:20px;
     padding-left:20px;
-    background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/Shell_Icons.png);
+    background-image:url(/Shell/images/Shell_Icons.png);
     background-position: -10px -79px;
     background-repeat:no-repeat;
 }
@@ -233,7 +233,7 @@ div#ShellMeBar.SignedIn div.GamerStatArea div.notifications
     height:18px;
     margin-left:20px;
     padding-left:19px;
-    background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/Shell_Icons.png);
+    background-image:url(/Shell/images/Shell_Icons.png);
     background-position: -10px -178px;
     background-repeat:no-repeat;
     cursor:pointer;
@@ -245,7 +245,7 @@ div#ShellMeBar.SignedIn div.GamerStatArea div.messages
     height:18px;
     margin-left:20px;
     padding-left:24px;
-    background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/Shell_Icons.png);
+    background-image:url(/Shell/images/Shell_Icons.png);
     background-position: -10px -127px;
     background-repeat:no-repeat;
     cursor:pointer;
@@ -266,7 +266,7 @@ div#ShellHeaderContent div#ShellMeBarArea div#ShellMeBar.SignedIn div.LinkArea s
     position:absolute;
     top:2px;
     right:0px;
-    background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/Shell_Icons.png);
+    background-image:url(/Shell/images/Shell_Icons.png);
     background-position: -10px -230px;
     background-repeat:no-repeat;
     width:15px;
@@ -276,7 +276,7 @@ div#ShellHeaderContent div#ShellMeBarArea div#ShellMeBar.SignedIn div.LinkArea s
 div#ShellHeaderContent div#ShellMeBarArea div#ShellMeBar.SignedOut div.LinkArea span.spread,
 div#ShellHeaderContent div#ShellMeBarArea div#ShellMeBar.SignedIn div.LinkArea span.spread
 {
-    background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/glyph-pipe.png);
+    background-image:url(/Shell/images/glyph-pipe.png);
     background-position:7px center;
     padding-left:15px;
     background-repeat:no-repeat;
@@ -363,7 +363,7 @@ div#ShellNavigationBar ul.NavigationElements li ul
 	z-index:500;
 	visibility: hidden;
 	font-size:100%;
-	background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/navigation-background.png);
+	background-image:url(/Shell/images/navigation-background.png);
 	background-color:Transparent;
 	padding-top:7px;
 	padding-bottom:10px;
@@ -408,7 +408,7 @@ body div#BodyHeader div#ShellLinkArea div.SearchArea input[type=button]
     margin:0px;
     height:32px;
     width:32px;
-    background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/Shell_Icons.png);
+    background-image:url(/Shell/images/Shell_Icons.png);
     background-repeat:no-repeat;
     background-position:-4px -24px;
     cursor:pointer;
@@ -548,7 +548,7 @@ body div#BodyFooter div#ShellFooterContent div.SecondaryContent div#LogoAndCopyr
 
 body div#BodyFooter div#ShellFooterContent div.SecondaryContent div#LogoAndCopyright div#CopyrightLogo
 {
-    background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/microsoft.png);
+    background-image:url(/Shell/images/microsoft.png);
     background-position:top right;
     background-repeat: no-repeat;
     width:100%;
@@ -573,7 +573,7 @@ body div#BodyFooter div#ShellFooterContent div.SecondaryContent div#ShellFooterS
 body div#BodyFooter div#ShellFooterContent div.PrimaryContent div#ShellFooterNavigation a.spread,
 body div#BodyFooter div#ShellFooterContent div.SecondaryContent div#ShellFooterSecondaryNavigation a.spread
 {
-    background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/glyph-pipe.png);
+    background-image:url(/Shell/images/glyph-pipe.png);
     background-position:0px center;
     padding-left:10px;
     background-repeat:no-repeat;
@@ -582,7 +582,7 @@ body div#BodyFooter div#ShellFooterContent div.SecondaryContent div#ShellFooterS
 
 body div#BodyFooter div#ShellFooterContent div.PrimaryContent div#ShellFooterNavigation a.SupportLink
 {
-    background-image:url(/web/20110702175822im_/http://www.xbox.com/Shell/images/Shell_Icons.png);
+    background-image:url(/Shell/images/Shell_Icons.png);
     background-repeat:no-repeat;
     background-position:-10px -280px;
     padding-left:20px;

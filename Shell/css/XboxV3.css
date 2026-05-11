@@ -1,7 +1,7 @@
 body
 {
     background-color: #F7F7F7;
-    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/images/motional.png);
+    background-image: url(/Shell/images/motional.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,7 +16,7 @@ body
 /* column container to handle client windows taller than 2000px (will flow beyond the motional background) */
 body > div#bodycolumn
 {
-    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/images/bodycolumn.png);
+    background-image: url(/Shell/images/bodycolumn.png);
     background-position: center top;
     background-repeat: repeat-y;
 }
@@ -136,7 +136,7 @@ h2:first-child, h3:first-child, h4:first-child
 
 .StatusMessage .NotificationAlertIcon
 {
-    background-image: url(/web/20110702175616im_/http://www.xbox.com/Content/images/notification_alerts.png);
+    background-image: url(/Content/images/notification_alerts.png);
     float: left;
     height: 20px;
     width: 20px;
@@ -152,14 +152,14 @@ h2:first-child, h3:first-child, h4:first-child
 
 .Alert .Icon
 {
-    background-image: url(/web/20110702175616im_/http://www.xbox.com/Content/images/XboxCom_Icons.png);
+    background-image: url(/Content/images/XboxCom_Icons.png);
     background-position: -10px -280px;
 }
 
 .Alert .FixIt, .Alert .FixIt:hover, .Alert .FixIt:visited
 {
     /* TODO: Fix the position when we have an updated image sheet */
-    background-image: url(/web/20110702175616im_/http://www.xbox.com/Content/images/XboxCom_Icons.png);
+    background-image: url(/Content/images/XboxCom_Icons.png);
     background-repeat: no-repeat;
     background-position: right -227px;
     margin-right: 36px;
@@ -168,7 +168,7 @@ h2:first-child, h3:first-child, h4:first-child
 
 .Success .Icon
 {
-    background-image: url(/web/20110702175616im_/http://www.xbox.com/Content/images/XboxCom_Icons.png);
+    background-image: url(/Content/images/XboxCom_Icons.png);
     background-position: -10px -330px;
 }
 
@@ -233,7 +233,7 @@ button.IconButton, .IconButton[type=button], .IconButton[type=submit]
 .CallToAction
 {
 	background-color: #77bb44;
-	background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/Images/Shell_Icons.png);
+	background-image: url(/Shell/Images/Shell_Icons.png);
 	background-position: right -325px;
 	background-repeat: no-repeat;
 	cursor: pointer;
@@ -429,7 +429,7 @@ button.IconButton, .IconButton[type=button], .IconButton[type=submit]
 #MediaControl #upArrow,
 #MediaControl #downArrow
 {
-    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/images/XboxComMP_Icons_info.png);
+    background-image: url(/Shell/images/XboxComMP_Icons_info.png);
     background-repeat: no-repeat;
     position: absolute;
     width: 20px;
@@ -476,7 +476,7 @@ button.IconButton, .IconButton[type=button], .IconButton[type=submit]
 
 #MediaControls
 {
-    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/images/opacity60_black.png);
+    background-image: url(/Shell/images/opacity60_black.png);
     background-repeat: repeat;
     bottom: 0;
     height: 42px;
@@ -495,7 +495,7 @@ button.IconButton, .IconButton[type=button], .IconButton[type=submit]
 
 #MediaControls a
 {
-    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/images/MediaPlayerImageSheet.png);
+    background-image: url(/Shell/images/MediaPlayerImageSheet.png);
     background-repeat: no-repeat;
 }
 
@@ -614,7 +614,7 @@ button.IconButton, .IconButton[type=button], .IconButton[type=submit]
 
 .silverlightVideoHost .Play
 {
-    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/Images/Play.png);
+    background-image: url(/Shell/Images/Play.png);
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
@@ -626,7 +626,7 @@ button.IconButton, .IconButton[type=button], .IconButton[type=submit]
 
 .silverlightVideoHost .Play:hover
 {
-    background-image: url(/web/20110702175616im_/http://www.xbox.com/Shell/images/PlayHover.png);
+    background-image: url(/Shell/images/PlayHover.png);
 }
 
 /* BannerN */

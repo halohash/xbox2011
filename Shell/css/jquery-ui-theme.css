@@ -140,7 +140,7 @@
 }
 .ui-widget-header .Icon
 {
-    background-image: url(/web/20110704023545im_/http://www.xbox.com/Content/images/XboxCom_InfoIcons.png);
+    background-image: url(/Content/images/XboxCom_InfoIcons.png);
     background-position: -10px -1830px;
     background-repeat: no-repeat;
     font-weight: bold;
@@ -156,7 +156,7 @@
 /*.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default
 {
     border: 1px solid #327e04;
-    background: #459e00 url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-bg_highlight-hard_15_459e00_1x100.png) 50% 50% repeat-x;
+    background: #459e00 url(/Shell/images/jquery-ui-theme/ui-bg_highlight-hard_15_459e00_1x100.png) 50% 50% repeat-x;
     font-weight: bold;
     color: #ffffff;
 }
@@ -167,7 +167,7 @@
 }
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus
 {
-    background: #67b021 url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-bg_highlight-soft_25_67b021_1x100.png) 50% 50% repeat-x;
+    background: #67b021 url(/Shell/images/jquery-ui-theme/ui-bg_highlight-soft_25_67b021_1x100.png) 50% 50% repeat-x;
     font-weight: bold;
     color: #ffffff;
 }
@@ -179,7 +179,7 @@
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active
 {
     border: 1px solid #d4ccb0;
-    background: #fafaf4 url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-bg_highlight-hard_100_fafaf4_1x100.png) 50% 50% repeat-x;
+    background: #fafaf4 url(/Shell/images/jquery-ui-theme/ui-bg_highlight-hard_100_fafaf4_1x100.png) 50% 50% repeat-x;
     font-weight: bold;
     color: #459e00;
 }
@@ -199,7 +199,7 @@
 .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight
 {
     border: 0px solid #e8e1b5;
-    background: #fcf0ba url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-bg_glass_55_fcf0ba_1x400.png) 50% 50% repeat-x;
+    background: #fcf0ba url(/Shell/images/jquery-ui-theme/ui-bg_glass_55_fcf0ba_1x400.png) 50% 50% repeat-x;
     color: #363636;
 }
 .ui-state-highlight a, .ui-widget-content .ui-state-highlight a, .ui-widget-header .ui-state-highlight a
@@ -209,7 +209,7 @@
 .ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error
 {
     border: 0px solid #e3a345;
-    background: #ffedad url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-bg_highlight-soft_95_ffedad_1x100.png) 50% top repeat-x;
+    background: #ffedad url(/Shell/images/jquery-ui-theme/ui-bg_highlight-soft_95_ffedad_1x100.png) 50% top repeat-x;
     color: #cd5c0a;
 }
 .ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a
@@ -245,35 +245,35 @@
 {
     width: 16px;
     height: 16px;
-    background-image: url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-icons_808080_256x240.png);
+    background-image: url(/Shell/images/jquery-ui-theme/ui-icons_808080_256x240.png);
 }
 .ui-widget-content .ui-icon
 {
-    background-image: url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-icons_808080_256x240.png);
+    background-image: url(/Shell/images/jquery-ui-theme/ui-icons_808080_256x240.png);
 }
 .ui-widget-header .ui-icon
 {
-    background-image: url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-icons_847e71_256x240.png);
+    background-image: url(/Shell/images/jquery-ui-theme/ui-icons_847e71_256x240.png);
 }
 .ui-state-default .ui-icon
 {
-    background-image: url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-icons_eeeeee_256x240.png);
+    background-image: url(/Shell/images/jquery-ui-theme/ui-icons_eeeeee_256x240.png);
 }
 .ui-state-hover .ui-icon, .ui-state-focus .ui-icon
 {
-    background-image: url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-icons_ffffff_256x240.png);
+    background-image: url(/Shell/images/jquery-ui-theme/ui-icons_ffffff_256x240.png);
 }
 .ui-state-active .ui-icon
 {
-    background-image: url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-icons_8dc262_256x240.png);
+    background-image: url(/Shell/images/jquery-ui-theme/ui-icons_8dc262_256x240.png);
 }
 .ui-state-highlight .ui-icon
 {
-    background-image: url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-icons_8dc262_256x240.png);
+    background-image: url(/Shell/images/jquery-ui-theme/ui-icons_8dc262_256x240.png);
 }
 .ui-state-error .ui-icon, .ui-state-error-text .ui-icon
 {
-    background-image: url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-icons_cd0a0a_256x240.png);
+    background-image: url(/Shell/images/jquery-ui-theme/ui-icons_cd0a0a_256x240.png);
 }
 
 /* positioning */
@@ -1060,7 +1060,7 @@
 {
     margin: -12px 0 0 -12px;
     padding: 12px;
-    background: #cccccc url(/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-bg_highlight-hard_95_cccccc_1x100.png) 50% top repeat-x;
+    background: #cccccc url(/Shell/images/jquery-ui-theme/ui-bg_highlight-hard_95_cccccc_1x100.png) 50% top repeat-x;
     opacity: .20;
     filter: Alpha(Opacity=20);
     -moz-border-radius: 10px;
@@ -1218,7 +1218,7 @@
 }
 .ui-autocomplete-loading
 {
-    background: white url('/web/20110704023545im_/http://www.xbox.com/Shell/images/jquery-ui-theme/ui-anim_basic_16x16.gif') right center no-repeat;
+    background: white url('/Shell/images/jquery-ui-theme/ui-anim_basic_16x16.gif') right center no-repeat;
 }
 
 /* workarounds */
@@ -1397,7 +1397,7 @@ button.ui-button::-moz-focus-inner
 }
 .ui-dialog .ui-dialog-titlebar-close
 {
-    background-image: url(/web/20110704023545im_/http://www.xbox.com/Content/images/XboxCom_InfoIcons.png);
+    background-image: url(/Content/images/XboxCom_InfoIcons.png);
     background-position: -10px -2230px;
     background-repeat: no-repeat;
     position: absolute;
